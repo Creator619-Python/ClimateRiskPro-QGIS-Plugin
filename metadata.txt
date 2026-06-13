@@ -1,16 +1,22 @@
-[general]
 name=ClimateRisk Pro
 qgisMinimumVersion=3.16
-description=TCFD, ISSB S2, BRSR and CSRD aligned climate risk assessment directly on map layers
 version=1.0.0
-author=Gokul Krishna T.B.
-email=tbgokulkrishna@gmail.com
-about=Assess physical climate risk for any location or layer using ThinkHazard, Aqueduct, and NASA POWER data. Outputs risk scores as attribute columns. Supports single feature and batch mode.
-tracker=https://github.com/Creator619-Python/climaterisk-pro
-repository=https://github.com/Creator619-Python/climaterisk-pro
-tags=climate,risk,ESG,TCFD,BRSR,sustainability
-homepage=https://github.com/Creator619-Python/climaterisk-pro
-category=Plugins
+
+description=Climate risk assessment and ESG reporting directly within QGIS
+
+about=Assess flood, heat, water stress and multi-hazard climate risks for locations and map layers using ThinkHazard, Aqueduct and NASA POWER data. Generate TCFD, ISSB S2, BRSR and CSRD aligned climate risk reports and add risk scores directly to layer attributes.
+
+author=Gokul Krishna T.B
+email=gokulk122@gmail.com
+
+homepage=https://github.com/Creator619-Python/ClimateRiskPro-QGIS-Plugin
+repository=https://github.com/Creator619-Python/ClimateRiskPro-QGIS-Plugin
+tracker=https://github.com/Creator619-Python/ClimateRiskPro-QGIS-Plugin/issues
+
+license=Apache-2.0
+
+tags=climate,risk,esg,sustainability,tcfd,issb,brsr,csrd
 icon=icon.png
+
 experimental=False
 deprecated=False
